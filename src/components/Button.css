@@ -1,15 +1,11 @@
 :root {
-    --primary: #ffffff;
+    --primary: white;
 }
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: 'Roboto', sans-serif;
-    color: #6568f4;
     font-size: 1.2rem;
-
 }
 .btn {
     padding: 8px 20px;
@@ -17,14 +13,17 @@
     outline: none;
     border: none;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    color: #6568f4;
+    font-size: 1.2rem;
 
 }
 
 .btn:hover{
     padding: 8px 20px;
     transition: all .3s ease-out;
-    background: white;
-    color: #6568f4;
+    background: #23036A;
+    color: white;
     transition: 250ms;
 }
 
@@ -45,7 +44,7 @@
     padding: 8px 20px;
     border-radius: 4px;
     font-size: 18px;
-    color: white;
+    color: #6568f4;
 }
 
 .btn--large{
@@ -54,3 +53,4 @@
     font-size: 20px;
     color: white;
 }
+

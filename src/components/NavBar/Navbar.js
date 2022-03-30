@@ -18,32 +18,28 @@ class NavBar extends Component {
     render(){
         return(
             <nav className="NavbarItems">
-                <h1 className='navbar-logo'><img src={navlogo} width='30' alt='tiko logo'aria-hidden="true"/>&nbsp;TikoJar</h1>
+              <h1 className='navbar-logo'><img src={navlogo} width='30' alt='tiko logo'aria-hidden="true"/>&nbsp;TikoJar</h1>
                 <div className='menu-icon' onClick={this.handleClick}>
-                  <i className={'this.state.clicked' ? 'fas fa-bars' : 'fas fa-times'}>
-
-                  </i>
+                  <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                   {MenuItems.map((item, index) =>{
                     return(
                       <li key={index}>
                         <a className={item.cName} href={item.url}>
-                        {item.title}
+                          {item.title}
                         </a>
                       </li>
                     )
-                    
-                    })}
-                    
+                  })}
                 </ul>
-                <Button className='add'>
-                <i class="fa-brands fa-discord fa-fw" aria-hidden="true"></i>&nbsp;
-                Add TikoJar!
-                </Button>
+                  <Button className='add-button'>
+                    <i class="fa-brands fa-discord fa-fw" aria-hidden="true" />
+                      &nbsp;
+                        Add TikoJar!
+                  </Button>
             </nav>
         )
     }
 }
-
 export default NavBar;

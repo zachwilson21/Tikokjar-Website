@@ -1,14 +1,10 @@
 .NavbarItems {
-    background: linear-gradient(90deg, rgb(110,94,254) 0%, rgba(73,63,252,1) 100%);
+    background: #5F00E8;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
-}
-
-.add {
-    padding-right: 50px;
+    font-size: 1.2rem;  
 }
 
 .navbar-logo{
@@ -18,6 +14,10 @@
     cursor: pointer;
     font-size: 2rem;
     padding: .1rem 1rem;
+    display: inline-flex; 
+    flex-wrap: nowrap;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .navbar-logo:hover{
@@ -44,6 +44,7 @@
     color: white;
     text-decoration: none;
     padding: .5rem 1rem;
+
 }
 
 .nav-links:hover{
@@ -54,6 +55,7 @@
 
 .fa-bars {
     color: white;
+    font-size: 2rem;
 }
 
 .nav-links-mobile{
