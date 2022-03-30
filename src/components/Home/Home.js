@@ -8,7 +8,7 @@ class Home extends Component {
       render(){
           return(
 
-            <div className='logo-text' >
+            <div className='logo-text'>
                     <div>
                         <img src={logo} className='logo'/>
                     </div>
