@@ -5,7 +5,7 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'About',
+        title: 'See It',
         url: '#',
         cName: 'nav-links'
     },
@@ -26,7 +26,7 @@ export const MenuItems = [
     },
     {
         title: 'Add TikoJar!',
-        url: '#',
+        url: 'https://discord.com/api/oauth2/authorize?client_id=958877976995446784&permissions=285749795904&scope=bot%20applications.commands',
         cName: 'nav-links-mobile'
     },
 ]
