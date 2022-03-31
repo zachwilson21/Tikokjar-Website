@@ -10,7 +10,7 @@ class Home extends Component {
       render(){
           return(
 
-            <div className='home'>
+            <div className='home' >
                     <div className='logo'>
                         <img src={logo} width='350px'alt='tikojar logo'/>
                     </div>
