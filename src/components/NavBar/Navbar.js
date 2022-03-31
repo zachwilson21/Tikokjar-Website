@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { MenuItems } from '../MenuItems'
-import navlogo from '../../images/navlogo.png'
-import Button from '../Button'
+import { MenuItems } from './../MenuItems'
+import navlogo from './../../images/navlogo.png'
+import Button from './../Button'
 import './Navbar.css'
 
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import logo from '../../images/logo.png'
+import logo from './../../images/logo.png'
 import './Home.css'
-import Button from '../Button'
+import Button from './../Button'
 
 
 
