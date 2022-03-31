@@ -4,20 +4,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;  
+    font-size: 1.4rem;  
 }
 
 .navbar-logo{
     color: aliceblue;
     justify-content: start;
-    margin-left: 40px;
+    margin-left: 15px;
     cursor: pointer;
-    font-size: 2rem;
-    padding: .1rem 1rem;
-    display: inline-flex; 
-    flex-wrap: nowrap;
+    font-size: 2.4rem;
+    padding: .3rem 1rem;
+    display: flex;
+    flex-wrap: nowrap; 
     font-family: 'Roboto', sans-serif;
     
+}
+.nav-logo {
+    width:  35px;
 }
 
 .navbar-logo:hover{
@@ -30,12 +33,10 @@
 .nav-menu {
     display: grid;
     grid-template-columns: repeat(5,auto);
-    grid-gap: 10px;
     list-style: none;
     text-align: center;
     width: 70vw;
-    justify-content: end;
-    margin-right: 2rem;
+    justify-content: center;
 }
 
 

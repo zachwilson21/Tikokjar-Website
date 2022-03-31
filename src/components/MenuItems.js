@@ -20,6 +20,11 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
+        title: 'About',
+        url: '#',
+        cName: 'nav-links'
+    },
+    {
         title: 'Add TikoJar!',
         url: '#',
         cName: 'nav-links-mobile'

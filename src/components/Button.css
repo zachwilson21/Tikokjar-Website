@@ -2,11 +2,6 @@
     --primary: white;
 }
 
-* {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-}
 .btn {
     padding: 8px 20px;
     border-radius: 4px;
@@ -43,7 +38,7 @@
 .btn--medium{
     padding: 8px 20px;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 1.4rem;
     color: #6568f4;
 }
 
