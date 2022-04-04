@@ -1,6 +1,7 @@
 .NavbarItems {
     background: #5F00E8;
     height: 80px;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;

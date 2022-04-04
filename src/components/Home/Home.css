@@ -4,11 +4,8 @@
     font-family: 'Rokkitt', serif;
     width: 100vw;
     height: calc(100vh - 80px);
-  }
-
-  html, body {
-    width: 100%;
-    height: 100%;
+    font-weight: 900;
+    font-size: 40rem;
   }
 
   .logo {
@@ -17,13 +14,14 @@
     margin-left: 100px;
   }
 
-  .text {
+  .top-text {
     padding-left: 12rem;
-    font-size: 5rem;
+    font-size: 6rem;
     color: white;
     line-height: 80px;
     text-align: center;
     margin-top: 3rem;
+    font-weight: 900;
   }
   
   .small-text {
@@ -31,7 +29,7 @@
     font-family: 'Red Hat Text', sans-serif;
     font-size: 2rem;
     line-height: 3rem;
-    font-weight: 700;
+    font-weight: 900;
   }
 
   .button{

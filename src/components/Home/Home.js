@@ -14,7 +14,7 @@ class Home extends Component {
                     <div className='logo'>
                         <img src={logo} width='350px'alt='tikojar logo'/>
                     </div>
-                    <div className='text'>
+                    <div className='top-text'>
                         <div> Is The Swear Jar Not<br/> Working Out?</div>
                         <div className='small-text'>On a positive note, <br/>TikoJar is here to fix that ;)</div>
                         <div className='button'>
