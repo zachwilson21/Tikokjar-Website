@@ -1,7 +1,7 @@
 .see-it {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:center;
   height: calc(100vh * 1.8);
   width: 100vw;
 }
@@ -9,9 +9,14 @@
 .see-it-section {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   padding-left: 9rem;
   padding-right: 9rem;
   padding-top: 4rem;
+  background-image: url(./../../images/wave-dark.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -480px;
 }
 
 .see-it-section-light {
@@ -20,7 +25,11 @@
   padding-left: 9rem;
   padding-right: 9rem;
   padding-top: 4rem;
-  background-color: #5F00E8;
+  background-image: url(./../../images/wave-light.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -480px;
+
 
 }
 .text {
@@ -54,3 +63,4 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
+

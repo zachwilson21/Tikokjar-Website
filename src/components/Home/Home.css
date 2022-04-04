@@ -6,6 +6,10 @@
     height: calc(100vh - 80px);
     font-weight: 900;
     font-size: 40rem;
+    background-image: url(./../../images/stacked-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -200px;
   }
 
   .logo {
