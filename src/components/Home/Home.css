@@ -3,7 +3,7 @@
     justify-content: space-around;
     font-family: 'Rokkitt', serif;
     width: 100vw;
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
     font-weight: 900;
     font-size: 40rem;
     background-image: url(./../../images/stacked-waves-haikei.svg);
@@ -11,6 +11,7 @@
     background-size:cover;
     background-position-y: -200px;
   }
+
 
   .logo {
     display: grid;
@@ -39,3 +40,18 @@
   .button{
     margin-top: 3rem;
   }
+
+  @media screen and (max-width:960px){
+    .home{
+      flex-wrap: wrap;
+    }
+    .logo{
+      margin: 0;
+      padding: 0;
+    }
+
+    .top-text{
+      margin: 0;
+      padding: 10px;
+    }
+   }

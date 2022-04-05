@@ -11,11 +11,11 @@
     font-family: 'Roboto', sans-serif;
     color: #6568f4;
     font-size: 1.2rem;
+    margin-right: 10px;
 
 }
 
 .btn:hover{
-    padding: 8px 20px;
     transition: all .3s ease-out;
     background: #23036A;
     color: white;
@@ -43,9 +43,9 @@
 }
 
 .btn--large{
-    padding: 12px 26px;
+    padding: 16px 40px;
     border-radius: 4px;
-    font-size: 20px;
-    color: white;
+    font-size: 25px;
+    color: #6568f4;
 }
 
