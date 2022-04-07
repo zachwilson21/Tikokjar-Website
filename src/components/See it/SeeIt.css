@@ -1,7 +1,6 @@
 .see-it {
   display: flex;
   flex-direction: column;
-  justify-content:center;
   width: 100vw;
 }
 
@@ -12,25 +11,8 @@
   padding-left: 9rem;
   padding-right: 9rem;
   padding-top: 4rem;
-  background-image: url(./../../images/wave-dark.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: -480px;
 }
 
-.see-it-section-light {
-  display: flex;
-  flex-direction: row;
-  padding-left: 9rem;
-  padding-right: 9rem;
-  padding-top: 4rem;
-  background-image: url(./../../images/wave-light.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: -480px;
-
-
-}
 .text {
   box-sizing: border-box;
   display: flex;
@@ -63,3 +45,21 @@
   padding-right: 1rem;
 }
 
+@media screen and (max-width:960px){
+  .see-it{
+    display: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+  }
+  .see-it-section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .images{
+    display: none;
+  }
+}

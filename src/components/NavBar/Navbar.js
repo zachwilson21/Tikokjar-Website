@@ -34,7 +34,7 @@ class NavBar extends Component {
                   })}
                 </ul>
                 <a href='https://discord.com/api/oauth2/authorize?client_id=958877976995446784&permissions=285749795904&scope=bot%20applications.commands'>
-                  <Button className='add-button'>
+                  <Button buttonSize='btn--medium'>
                     <i class="fa-brands fa-discord fa-fw" aria-hidden="true" />
                       &nbsp;
                         Add TikoJar!

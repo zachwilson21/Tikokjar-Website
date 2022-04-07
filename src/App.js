@@ -10,7 +10,7 @@ import Commands from './components/Commands/Commands';
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
       <Home />
       <SeeIt />
       <Commands />

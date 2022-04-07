@@ -1,9 +1,5 @@
 .commands{
   height: 100vh;
-  background-image: url(./../../images/wave-light.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-y: -440px;
   font-family: 'Rokkitt', serif;
   font-size: 4rem;
   font-weight: 900;

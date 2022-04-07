@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import logo from './../../images/logo.png'
 import './Home.css'
-import Button from './../Button'
+import Button from './../Button'    
 
 
 
@@ -12,7 +12,7 @@ class Home extends Component {
 
             <div className='home' >
                     <div className='logo'>
-                        <img src={logo} width='350px'alt='tikojar logo'/>
+                        <img src={logo} alt='tikojar logo'/>
                     </div>
                     <div className='top-text'>
                         <div> Is The Swear Jar Not<br/> Working Out?</div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.fd2bdf09.css",
-    "main.js": "./static/js/main.40d792e8.js",
+    "main.css": "./static/css/main.6ed77b33.css",
+    "main.js": "./static/js/main.b1f16a7f.js",
     "static/media/logo.png": "./static/media/logo.bfdce8ed60f79af77de2.png",
     "static/media/pencil.png": "./static/media/pencil.bc19299e3dc164d2926b.png",
     "static/media/discord.png": "./static/media/discord.966dafc796cae6e97f10.png",
@@ -10,13 +10,12 @@
     "static/media/navlogo.png": "./static/media/navlogo.730f5d7d33081c39c0b9.png",
     "static/media/stacked-waves-haikei.svg": "./static/media/stacked-waves-haikei.9da3af81bc7f1759be26.svg",
     "index.html": "./index.html",
-    "static/media/wave-dark.svg": "./static/media/wave-dark.ccac029b87ee999165a0.svg",
-    "static/media/wave-light.svg": "./static/media/wave-light.9256397ac322d8102075.svg",
-    "main.fd2bdf09.css.map": "./static/css/main.fd2bdf09.css.map",
-    "main.40d792e8.js.map": "./static/js/main.40d792e8.js.map"
+    "static/media/seeitbg.svg": "./static/media/seeitbg.34ef327907aa75997cc119a7602e3e3f.svg",
+    "main.6ed77b33.css.map": "./static/css/main.6ed77b33.css.map",
+    "main.b1f16a7f.js.map": "./static/js/main.b1f16a7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd2bdf09.css",
-    "static/js/main.40d792e8.js"
+    "static/css/main.6ed77b33.css",
+    "static/js/main.b1f16a7f.js"
   ]
 }
