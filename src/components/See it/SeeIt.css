@@ -2,20 +2,32 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
+  background-color: black;
+  padding-bottom: 50px;
 }
 
 .see-it-section {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-around;
   padding-left: 9rem;
   padding-right: 9rem;
-  padding-top: 4rem;
+  padding-top: 50px;
+}
+.see-it-section-light {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-left: 9rem;
+  padding-right: 9rem;
+  padding-top: 50px;
 }
 
 .text {
-  box-sizing: border-box;
   display: flex;
+  width: 60rem;
   flex-direction: column;
   justify-content: center;
   text-align: center;
@@ -40,26 +52,85 @@
 }
 
 .images {
-  width: 20rem;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.individual-image{
+  display: flex;
   padding-left: 1rem;
   padding-right: 1rem;
+  width: 19rem;
+}
+.individual-image-dark{
+  display: flex;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 19rem;
 }
 
 @media screen and (max-width:960px){
   .see-it{
-    display: hidden;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    
+    flex-wrap: wrap;
+    margin: 0;
+    padding: none;
+    padding-bottom: 5rem;    
   }
   .see-it-section {
+    position: relative;
     width: 100vw;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-  }
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    margin: 0;
+    align-items: center;
+    justify-items: center;
 
-  .images{
-    display: none;
   }
+  .see-it-section-light {
+    position: relative;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    margin: 0;
+    align-items: center;
+    justify-items: center;
+
+  }
+  .text{
+    padding-top: 40px;
+    justify-content: center;
+    width:100%;
+    align-content: center;
+    font-size: 1.5rem;
+    z-index: 1;
+
+  }
+  .header{
+    font-size: 3rem;
+    line-height: 45px;
+    padding-bottom: 15px;
+    z-index: 1;
+  }
+  .images{
+    position: absolute;
+    z-index: 0;    
+
+    }
+
+    .individual-image{
+    width: 16rem;
+    opacity: 80%;
+    }
+    .individual-image-dark{
+      width: 16rem;
+      opacity: 40%;
+      }
 }

@@ -1,13 +1,22 @@
 .commands{
+  display: flex;
   height: 100vh;
-  font-family: 'Rokkitt', serif;
-  font-size: 4rem;
-  font-weight: 900;
-  color: white;
   background-color: #5f00e8;
 }
 
 .commands-header {
+  padding-top: 20px;
   display: flex;
-  justify-content: center
+  justify-content: center;
+  font-family: 'Rokkitt', serif;
+  font-size: 4rem;
+  font-weight: 900;
+  color: white;
+}
+
+@media screen and (max-width:960px){
+  .commands-header{
+    text-align: center;
+  }
+  
 }

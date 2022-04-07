@@ -95,6 +95,7 @@
         transition: all .5s ease;
         z-index: 1;
         margin: 0;
+        padding-left: 0;
     }
 
     .nav-links {
