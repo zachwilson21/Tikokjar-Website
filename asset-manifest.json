@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.306dd6a5.css",
-    "main.js": "./static/js/main.b1f16a7f.js",
+    "main.css": "./static/css/main.ad80790f.css",
+    "main.js": "./static/js/main.eab95ec0.js",
     "static/media/logo.png": "./static/media/logo.bfdce8ed60f79af77de2.png",
-    "static/media/pencil.png": "./static/media/pencil.bc19299e3dc164d2926b.png",
-    "static/media/discord.png": "./static/media/discord.966dafc796cae6e97f10.png",
-    "static/media/calender.png": "./static/media/calender.a0528c6df838b6cfc4f6.png",
-    "static/media/fireworks.png": "./static/media/fireworks.e5ca2ff4ead2484a00bd.png",
+    "static/media/discord.png": "./static/media/discord.18d36b3f68a6b40d9818.png",
+    "static/media/pencil.png": "./static/media/pencil.adcfad33eea63b6ac262.png",
+    "static/media/fireworks.png": "./static/media/fireworks.829fda94a27f24970853.png",
+    "static/media/calender.png": "./static/media/calender.09e462e02f272f1c99f1.png",
     "static/media/navlogo.png": "./static/media/navlogo.730f5d7d33081c39c0b9.png",
     "static/media/stacked-waves-haikei.svg": "./static/media/stacked-waves-haikei.9da3af81bc7f1759be26.svg",
     "index.html": "./index.html",
     "static/media/seeitbg.svg": "./static/media/seeitbg.34ef327907aa75997cc119a7602e3e3f.svg",
-    "main.306dd6a5.css.map": "./static/css/main.306dd6a5.css.map",
-    "main.b1f16a7f.js.map": "./static/js/main.b1f16a7f.js.map"
+    "main.ad80790f.css.map": "./static/css/main.ad80790f.css.map",
+    "main.eab95ec0.js.map": "./static/js/main.eab95ec0.js.map"
   },
   "entrypoints": [
-    "static/css/main.306dd6a5.css",
-    "static/js/main.b1f16a7f.js"
+    "static/css/main.ad80790f.css",
+    "static/js/main.eab95ec0.js"
   ]
 }
