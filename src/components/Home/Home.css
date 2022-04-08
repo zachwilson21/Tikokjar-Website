@@ -7,11 +7,7 @@
     min-height: 100vh;
     font-weight: 900;
     font-size: 40rem;
-    background-image: url(./../../images/stacked-waves-haikei.svg);
-    background-repeat: no-repeat;
-    background-position-x: 0;
-    background-position-y: -20px;
-    background-size: cover;
+
     padding-top: 80px;
   }
 

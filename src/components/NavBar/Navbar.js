@@ -3,6 +3,7 @@ import { MenuItems } from './../MenuItems'
 import navlogo from './../../images/navlogo.png'
 import Button from './../Button'
 import './Navbar.css'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 
