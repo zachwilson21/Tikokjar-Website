@@ -18,7 +18,7 @@ class NavBar extends Component {
     render(){
         return(
             <nav className="NavbarItems">
-              <h1 className='navbar-logo'><img src={navlogo} alt='tiko logo'aria-hidden="true" className='nav-logo'/>&nbsp;TikoJar</h1>
+              <a href='https://www.tikojar.com' className='homelink'><h1 className='navbar-logo'><img src={navlogo} alt='tiko logo'aria-hidden="true" className='nav-logo'/>&nbsp;TikoJar</h1></a>
                 <div className='menu-icon' onClick={this.handleClick}>
                   <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'} />
                 </div>

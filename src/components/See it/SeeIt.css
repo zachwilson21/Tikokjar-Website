@@ -1,9 +1,14 @@
 .see-it {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 100vw;
   background-color: black;
   padding-bottom: 50px;
+}
+.scrollbar-seeit{
+  position: absolute;
+  top: -80px;
 }
 
 .see-it-section {

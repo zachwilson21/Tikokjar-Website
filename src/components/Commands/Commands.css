@@ -1,17 +1,49 @@
 .commands{
-  display: flex;
-  height: 100vh;
+  height: 100%;
   background-color: #5f00e8;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  padding-bottom: 50px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.scrollbar-command{
+  position: absolute;
+  top: 2301px;
 }
 
 .commands-header {
-  padding-top: 20px;
+  padding-top: 20px;  
   display: flex;
   justify-content: center;
   font-family: 'Rokkitt', serif;
   font-size: 4rem;
   font-weight: 900;
   color: white;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: space-between;
+}
+
+.Header{
+  font-family: 'Rokkitt', serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+  padding-top: 20px;
+}
+
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50rem;
+  margin-top: 20px;
+  align-self: center;
+  border-radius: 20px;
+  max-width: 100%;
 }
 
 @media screen and (max-width:960px){
