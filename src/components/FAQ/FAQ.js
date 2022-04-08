@@ -8,7 +8,7 @@ class FAQ extends Component {
           return(
             <div className='FAQ'>
             <div id='FAQ-Section' className='scrollbar-FAQ' />
-                <div className='header'>This is where Frequently asked Questions go!!</div>
+                <div className='faq-header'>This is where Frequently asked Questions go!!</div>
             
             </div>
           )

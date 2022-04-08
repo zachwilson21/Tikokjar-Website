@@ -20,6 +20,12 @@
 .about-main-header{
   padding-top: 80px;
 }
+
+.fa-brands{
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .about-section {
   display: flex;
   flex-direction: row;
@@ -49,7 +55,8 @@
   font-weight: 900;
 }
 .about-closing {
-  font-weight: 900;
+  color: white;
+
 }
 
 .about-images {
@@ -102,6 +109,7 @@
     z-index: 1;
   }
   .about-images{
+    display: none;
     position: absolute;
     z-index: 0;
   }

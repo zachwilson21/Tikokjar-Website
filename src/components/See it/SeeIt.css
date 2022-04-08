@@ -57,6 +57,7 @@
 }
 
 .images {
+  padding-top: 80px;
   display: inherit;
   align-items: center;
   justify-content: center;

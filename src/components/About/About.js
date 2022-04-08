@@ -15,25 +15,48 @@ class About extends Component {
                 <div id='About-Section' className='scrollbar-About' />
                 <div className='about-main-header'>About</div>
                 <div className='about-section'>
-                      <div className='text'>
+                      <div className='about-text'>
                           <div className='about-header'>Zach Wilson</div>
                           <div>Real standup guy. Once got a hole in one in minigolf. </div>
-                          <div className='about-closing'></div>                   
+                          <div className='about-closing'>
+                              <a href='https://www.linkedin.com/in/zach-wilson-b202a08b/' target="_blank">
+                                  <i class="fa-brands fa-linkedin"></i>
+                                  </a>
+                              <a href='https://github.com/zachwilson21' target="_blank">
+                                  <i class="fa-brands fa-github"></i>
+                              </a>
+                          </div>                   
 
                       </div>
                       <div className='about-images'><img src={zach} alt='discord logo' className='about-image'/></div>
                   </div>
                   <div className='about-section'>
-                      <div className='about-mages'><img src={nathan} alt='calender'className='about-image'/></div>
+                      <div className='about-images'><img src={nathan} alt='calender'className='about-image'/></div>
                       <div className='about-text'>
                           <div className='about-header'>Nathan Wolf</div>
                           <div>You won't find anyone that databases as well as Nathan databases</div>
+                          <div className='about-closing'>
+                              <a href='www.linkedin.com/in/nwolf2' target="_blank">
+                                  <i class="fa-brands fa-linkedin"></i>
+                                  </a>
+                              <a href='https://github.com/NULLWulf' target="_blank">
+                                  <i class="fa-brands fa-github"></i>
+                              </a>
+                          </div> 
                       </div>
                   </div>
                   <div className='about-section'>
                       <div className='about-text'>
                           <div className='about-header'>Matthew Brown</div>
                           <div>This man uses 5 monitors at a time and thats just to keep up with all the help questions he gets from other students</div>
+                          <div className='about-closing'>
+                              <a href='https://www.linkedin.com/in/matthew-brown-054998211/' target="_blank">
+                                  <i class="fa-brands fa-linkedin"></i>
+                                  </a>
+                              <a href='https://github.com/MatthewDBrown50' target="_blank">
+                                  <i class="fa-brands fa-github"></i>
+                              </a>
+                          </div> 
                       </div>
                       <div className='about-images'><img src={matthew} alt='notepad'className='about-image'/></div>
                   </div>
@@ -42,6 +65,17 @@ class About extends Component {
                       <div className='about-text'>
                           <div className='about-header'>Joel Santos</div>
                           <div>There's just too much to say about Joel</div>
+                          <div className='about-closing'>
+                              <a href='www.linkedin.com/in/joelsantosh' target="_blank">
+                                  <i class="fa-brands fa-linkedin"></i>
+                                  </a>
+                              <a href='https://github.com/HaiyoreN' target="_blank">
+                                  <i class="fa-brands fa-github"></i>
+                                  </a>
+                              <a href='https://www.twitch.tv/JSHaiyoreN' target="_blank">
+                                  <i class="fa-brands fa-twitch"></i>
+                              </a>
+                          </div> 
                       </div>
                   </div>
               </div>
