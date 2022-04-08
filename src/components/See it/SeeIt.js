@@ -10,7 +10,7 @@ class SeeIt extends Component {
       render(){
           return(
               <div className='see-it'>
-                  <div id='SeeIt' className='scrollbar-seeit' />
+                  <div id='SeeIt-Section' className='scrollbar-seeit' />
                   <div className='see-it-section-light'>
                       <div className='text'>
                           <div className='header'>Let's Learn Some Greek</div>

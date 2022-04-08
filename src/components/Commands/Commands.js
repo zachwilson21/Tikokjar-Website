@@ -14,7 +14,7 @@ class Commands extends Component {
       render(){
           return(
             <div className='commands'>
-                <div id='Commands' className='scrollbar-command'/>
+                <div id='Commands-Section' className='scrollbar-command'/>
                 <div className='commands-header'>TikoJar Commands</div>
                 <div className='Header'>Add Messages To The Jar</div>
                 <img src={add} alt='tikoadd' className='image'/>

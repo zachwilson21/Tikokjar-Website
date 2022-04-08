@@ -9,13 +9,8 @@
   text-align: center;
 }
 
-.scrollbar-command{
-  position: absolute;
-  top: 2301px;
-}
-
 .commands-header {
-  padding-top: 20px;  
+  padding-top: 100px;  
   display: flex;
   justify-content: center;
   font-family: 'Rokkitt', serif;

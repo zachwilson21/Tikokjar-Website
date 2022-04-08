@@ -1,0 +1,16 @@
+.FAQ{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  padding-bottom: 50px;
+  align-content: center;
+  text-align: center;
+  font-family: 'Rokkitt', serif;
+  font-size: 4rem;
+  font-weight: 900;
+  color: white;
+}
+.header{
+  padding-top: 80px;
+}

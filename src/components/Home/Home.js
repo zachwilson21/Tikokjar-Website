@@ -12,6 +12,7 @@ class Home extends Component {
 
             <div className='home' >
                     <div id='Home' className='scrollbar-home' />
+                    
                     <div className='logo'>
                         <img src={logo} alt='tikojar logo'/>
                     </div>
