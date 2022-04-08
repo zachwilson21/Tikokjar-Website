@@ -18,7 +18,7 @@ class About extends Component {
                       <div className='text'>
                           <div className='about-header'>Zach Wilson</div>
                           <div>Real standup guy. Once got a hole in one in minigolf. </div>
-                          <div className='about-closing'>Let’s Fix that Together.</div>                   
+                          <div className='about-closing'></div>                   
 
                       </div>
                       <div className='about-images'><img src={zach} alt='discord logo' className='about-image'/></div>
