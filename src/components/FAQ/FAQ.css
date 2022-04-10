@@ -1,5 +1,5 @@
 .FAQ{
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: space-between;
@@ -7,10 +7,21 @@
   align-content: center;
   text-align: center;
   font-family: 'Rokkitt', serif;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 900;
   color: white;
 }
 .faq-header{
   padding-top: 80px;
+}
+
+.faq-section-title{
+  padding-top: 30px;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.faq-section-answer{
+  font-size: 2rem;
+  font-weight: 500;
 }

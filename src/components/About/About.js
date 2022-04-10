@@ -13,11 +13,11 @@ class About extends Component {
           return(
             <div className='about'>
                 <div id='About-Section' className='scrollbar-About' />
-                <div className='about-main-header'>About</div>
+                <div className='about-main-header'>About<div className='about-sub'>TikoJar is a team project, serviced by the members below for the 2022 Spring Semester at the State University of New York at Oswego</div></div>
                 <div className='about-section'>
                       <div className='about-text'>
                           <div className='about-header'>Zach Wilson</div>
-                          <div>Real standup guy. Once got a hole in one in minigolf. </div>
+                          <div></div>
                           <div className='about-closing'>
                               <a href='https://www.linkedin.com/in/zach-wilson-b202a08b/' target="_blank">
                                   <i class="fa-brands fa-linkedin"></i>
@@ -34,9 +34,9 @@ class About extends Component {
                       <div className='about-images'><img src={nathan} alt='calender'className='about-image'/></div>
                       <div className='about-text'>
                           <div className='about-header'>Nathan Wolf</div>
-                          <div>You won't find anyone that databases as well as Nathan databases</div>
+                          <div></div>
                           <div className='about-closing'>
-                              <a href='www.linkedin.com/in/nwolf2' target="_blank">
+                              <a href='https://www.linkedin.com/in/nwolf2' target="_blank">
                                   <i class="fa-brands fa-linkedin"></i>
                                   </a>
                               <a href='https://github.com/NULLWulf' target="_blank">
@@ -48,7 +48,7 @@ class About extends Component {
                   <div className='about-section'>
                       <div className='about-text'>
                           <div className='about-header'>Matthew Brown</div>
-                          <div>This man uses 5 monitors at a time and thats just to keep up with all the help questions he gets from other students</div>
+                          <div></div>
                           <div className='about-closing'>
                               <a href='https://www.linkedin.com/in/matthew-brown-054998211/' target="_blank">
                                   <i class="fa-brands fa-linkedin"></i>
@@ -64,7 +64,7 @@ class About extends Component {
                       <div className='about-images'><img src={joel} alt='fireworks' className='about-image'/></div>
                       <div className='about-text'>
                           <div className='about-header'>Joel Santos</div>
-                          <div>There's just too much to say about Joel</div>
+                          <div></div>
                           <div className='about-closing'>
                               <a href='www.linkedin.com/in/joelsantosh' target="_blank">
                                   <i class="fa-brands fa-linkedin"></i>

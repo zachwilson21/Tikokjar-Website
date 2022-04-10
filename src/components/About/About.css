@@ -17,14 +17,32 @@
   font-size: 4rem;
 }
 
+.about-sub{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
 .about-main-header{
   padding-top: 80px;
 }
 
-.fa-brands{
+.fa-linkedin{
   color: white;
   padding-left: 15px;
   padding-right: 15px;
+}
+.fa-github{
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.fa-twitch{
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+
 }
 .about-section {
   display: flex;
@@ -60,9 +78,10 @@
 }
 
 .about-images {
-  display: inherit;
+  display: none;
   align-items: center;
   justify-content: center;
+
 }
 
 .about-image{
