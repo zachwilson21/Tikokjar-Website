@@ -13,7 +13,7 @@ class About extends Component {
           return(
             <div className='about'>
                 <div id='About-Section' className='scrollbar-About' />
-                <div className='about-main-header'>About<div className='about-sub'>TikoJar is a team project, serviced by the members below for the 2022 Spring Semester at the State University of New York at Oswego</div></div>
+                <div className='about-main-header'>About<div className='about-sub'>TikoJar is a team project, serviced by the members below for the 2022 Spring Semester at the <br/> State University of New York at Oswego</div></div>
                 <div className='about-section'>
                       <div className='about-text'>
                           <div className='about-header'>Zach Wilson</div>

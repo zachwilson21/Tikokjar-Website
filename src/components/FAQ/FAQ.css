@@ -22,6 +22,8 @@
 }
 
 .faq-section-answer{
+  padding-left: 30px;
+  padding-right: 30px;
   font-size: 2rem;
   font-weight: 500;
 }
