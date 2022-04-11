@@ -7,14 +7,14 @@
   align-content: center;
   text-align: center;
   font-family: 'Rokkitt', serif;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 900;
   color: white;
 }
 
 .about-header{
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 .about-sub{
@@ -22,7 +22,7 @@
   padding-left: 20px;
   padding-right: 20px;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .about-main-header{

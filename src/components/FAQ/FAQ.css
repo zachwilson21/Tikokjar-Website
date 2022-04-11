@@ -7,7 +7,7 @@
   align-content: center;
   text-align: center;
   font-family: 'Rokkitt', serif;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 900;
   color: white;
 }
@@ -17,13 +17,13 @@
 
 .faq-section-title{
   padding-top: 30px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 900;
 }
 
 .faq-section-answer{
   padding-left: 30px;
   padding-right: 30px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }

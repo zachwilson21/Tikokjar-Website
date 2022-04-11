@@ -21,6 +21,21 @@ class FAQ extends Component {
                 <div className='faq-section-title'> Where Do I Get The Message ID To Delete A Message I've Entered?
                     <div className='faq-section-answer'>Perform the '!tiko view messages' command. TikoJar will send you a private DM with you messages and the ID next to them to reference.</div>
                 </div>
+                <div className='faq-section-title'> What Tech Was Used To Create TikoJar?
+                    <div className='faq-section-answer'>Java 17 - Corretto
+                    MongoDB Atlas<br/>
+                    IntelliJ Idea<br/>
+                    Visual Studio Code<br/>
+                    Openliberty<br/>    
+                    Javacord<br/>
+                    OkHTTP3<br/>
+                    Jackson<br/>
+                    Apache Commons<br/>
+                    Log4J2<br/>
+                    JUnit5<br/>
+                    React - JSX
+                    </div>
+                </div>
             </div>
            
           )
