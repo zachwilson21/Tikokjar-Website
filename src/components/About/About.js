@@ -66,7 +66,7 @@ class About extends Component {
                           <div className='about-header'>Joel Santos</div>
                           <div></div>
                           <div className='about-closing'>
-                              <a href='www.linkedin.com/in/joelsantosh' target="_blank">
+                              <a href='https://www.linkedin.com/in/joelsantosh/' target="_blank">
                                   <i class="fa-brands fa-linkedin"></i>
                                   </a>
                               <a href='https://github.com/HaiyoreN' target="_blank">
